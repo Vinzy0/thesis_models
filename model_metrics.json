@@ -1,0 +1,317 @@
+{
+  "avoidant_gaze": {
+    "symptom": "avoidant_gaze",
+    "cv": "GroupKFold by participant_id (n_splits<= 5)",
+    "threshold": 0.5,
+    "vs_control": {
+      "window": {
+        "n": 1889,
+        "n_pos": 981,
+        "n_neg": 908,
+        "tp": 855,
+        "fp": 174,
+        "tn": 734,
+        "fn": 126,
+        "accuracy": 0.8411858125992588,
+        "balanced_accuracy": 0.8399648385401932,
+        "precision": 0.8309037900874635,
+        "recall": 0.8715596330275229,
+        "specificity": 0.8083700440528634,
+        "f1": 0.8507462686567164,
+        "roc_auc": 0.9091291813172748,
+        "f1_fold_std": 0.03832657682392323,
+        "f1_fold_mean": 0.8505088974159465
+      }
+    },
+    "vs_everything": {
+      "window": {
+        "n": 7816,
+        "n_pos": 981,
+        "n_neg": 6835,
+        "tp": 341,
+        "fp": 336,
+        "tn": 6499,
+        "fn": 640,
+        "accuracy": 0.8751279426816786,
+        "balanced_accuracy": 0.6492228717244322,
+        "precision": 0.5036927621861153,
+        "recall": 0.3476044852191641,
+        "specificity": 0.9508412582297001,
+        "f1": 0.41133896260554886,
+        "roc_auc": 0.810811788278685,
+        "f1_fold_std": 0.06229933345791478,
+        "f1_fold_mean": 0.4080703671928201
+      }
+    }
+  },
+  "facial_tension": {
+    "symptom": "facial_tension",
+    "cv": "GroupKFold by participant_id (n_splits<= 5)",
+    "threshold": 0.5,
+    "vs_control": {
+      "window": {
+        "n": 1894,
+        "n_pos": 986,
+        "n_neg": 908,
+        "tp": 819,
+        "fp": 246,
+        "tn": 662,
+        "fn": 167,
+        "accuracy": 0.7819429778247096,
+        "balanced_accuracy": 0.7798518465566388,
+        "precision": 0.7690140845070422,
+        "recall": 0.8306288032454361,
+        "specificity": 0.7290748898678414,
+        "f1": 0.7986348122866894,
+        "roc_auc": 0.8541251530233847,
+        "f1_fold_std": 0.07328095247410371,
+        "f1_fold_mean": 0.8009399902423157
+      }
+    },
+    "vs_everything": {
+      "window": {
+        "n": 7816,
+        "n_pos": 986,
+        "n_neg": 6830,
+        "tp": 307,
+        "fp": 362,
+        "tn": 6468,
+        "fn": 679,
+        "accuracy": 0.8668116683725691,
+        "balanced_accuracy": 0.6291787811201626,
+        "precision": 0.4588938714499253,
+        "recall": 0.31135902636916835,
+        "specificity": 0.9469985358711567,
+        "f1": 0.37099697885196375,
+        "roc_auc": 0.785079621286592,
+        "f1_fold_std": 0.04893567555623925,
+        "f1_fold_mean": 0.3725308200351036
+      }
+    }
+  },
+  "fear": {
+    "symptom": "fear",
+    "cv": "GroupKFold by participant_id (n_splits<= 5)",
+    "threshold": 0.5,
+    "vs_control": {
+      "window": {
+        "n": 1873,
+        "n_pos": 965,
+        "n_neg": 908,
+        "tp": 764,
+        "fp": 280,
+        "tn": 628,
+        "fn": 201,
+        "accuracy": 0.7431927389215163,
+        "balanced_accuracy": 0.7416699002533611,
+        "precision": 0.7318007662835249,
+        "recall": 0.7917098445595855,
+        "specificity": 0.6916299559471366,
+        "f1": 0.7605774016923843,
+        "roc_auc": 0.794818652849741,
+        "f1_fold_std": 0.09546909612814361,
+        "f1_fold_mean": 0.760333819749724
+      }
+    },
+    "vs_everything": {
+      "window": {
+        "n": 7816,
+        "n_pos": 965,
+        "n_neg": 6851,
+        "tp": 145,
+        "fp": 312,
+        "tn": 6539,
+        "fn": 820,
+        "accuracy": 0.8551688843398157,
+        "balanced_accuracy": 0.552359135196783,
+        "precision": 0.3172866520787746,
+        "recall": 0.15025906735751296,
+        "specificity": 0.9544592030360531,
+        "f1": 0.2039381153305204,
+        "roc_auc": 0.7313493813164449,
+        "f1_fold_std": 0.07660351662579357,
+        "f1_fold_mean": 0.19642854277070737
+      }
+    }
+  },
+  "fidgeting": {
+    "symptom": "fidgeting",
+    "cv": "GroupKFold by participant_id (n_splits<= 5)",
+    "threshold": 0.5,
+    "vs_control": {
+      "window": {
+        "n": 1915,
+        "n_pos": 1007,
+        "n_neg": 908,
+        "tp": 872,
+        "fp": 172,
+        "tn": 736,
+        "fn": 135,
+        "accuracy": 0.8396866840731071,
+        "balanced_accuracy": 0.8382555591038938,
+        "precision": 0.8352490421455939,
+        "recall": 0.8659384309831182,
+        "specificity": 0.8105726872246696,
+        "f1": 0.8503169185763042,
+        "roc_auc": 0.9053016549352768,
+        "f1_fold_std": 0.10215729173562946,
+        "f1_fold_mean": 0.8463851649643445
+      }
+    },
+    "vs_everything": {
+      "window": {
+        "n": 7816,
+        "n_pos": 1007,
+        "n_neg": 6809,
+        "tp": 421,
+        "fp": 418,
+        "tn": 6391,
+        "fn": 586,
+        "accuracy": 0.8715455475946776,
+        "balanced_accuracy": 0.6783420739797187,
+        "precision": 0.5017878426698451,
+        "recall": 0.41807348560079444,
+        "specificity": 0.938610662358643,
+        "f1": 0.4561213434452871,
+        "roc_auc": 0.8317697690552971,
+        "f1_fold_std": 0.15366270746268668,
+        "f1_fold_mean": 0.4455625096033973
+      }
+    }
+  },
+  "hand_tremor": {
+    "symptom": "hand_tremor",
+    "cv": "GroupKFold by participant_id (n_splits<= 5)",
+    "threshold": 0.5,
+    "vs_control": {
+      "window": {
+        "n": 1908,
+        "n_pos": 1000,
+        "n_neg": 908,
+        "tp": 756,
+        "fp": 244,
+        "tn": 664,
+        "fn": 244,
+        "accuracy": 0.7442348008385744,
+        "balanced_accuracy": 0.7436387665198239,
+        "precision": 0.756,
+        "recall": 0.756,
+        "specificity": 0.7312775330396476,
+        "f1": 0.756,
+        "roc_auc": 0.848148678414097,
+        "f1_fold_std": 0.08512984060127515,
+        "f1_fold_mean": 0.7509504620218905
+      }
+    },
+    "vs_everything": {
+      "window": {
+        "n": 7816,
+        "n_pos": 1000,
+        "n_neg": 6816,
+        "tp": 400,
+        "fp": 325,
+        "tn": 6491,
+        "fn": 600,
+        "accuracy": 0.8816530194472876,
+        "balanced_accuracy": 0.6761590375586854,
+        "precision": 0.5517241379310345,
+        "recall": 0.4,
+        "specificity": 0.9523180751173709,
+        "f1": 0.463768115942029,
+        "roc_auc": 0.8940655809859154,
+        "f1_fold_std": 0.09305695558113328,
+        "f1_fold_mean": 0.4559959821603684
+      }
+    }
+  },
+  "heavy_breathing": {
+    "symptom": "heavy_breathing",
+    "cv": "GroupKFold by participant_id (n_splits<= 5)",
+    "threshold": 0.5,
+    "vs_control": {
+      "window": {
+        "n": 1899,
+        "n_pos": 991,
+        "n_neg": 908,
+        "tp": 794,
+        "fp": 214,
+        "tn": 694,
+        "fn": 197,
+        "accuracy": 0.7835703001579779,
+        "balanced_accuracy": 0.7827640393497424,
+        "precision": 0.7876984126984127,
+        "recall": 0.8012108980827447,
+        "specificity": 0.76431718061674,
+        "f1": 0.7943971985992997,
+        "roc_auc": 0.8591186315606983,
+        "f1_fold_std": 0.07245138166635504,
+        "f1_fold_mean": 0.7937771107904297
+      }
+    },
+    "vs_everything": {
+      "window": {
+        "n": 7816,
+        "n_pos": 991,
+        "n_neg": 6825,
+        "tp": 205,
+        "fp": 215,
+        "tn": 6610,
+        "fn": 786,
+        "accuracy": 0.8719293756397134,
+        "balanced_accuracy": 0.5876799621501942,
+        "precision": 0.4880952380952381,
+        "recall": 0.20686175580222,
+        "specificity": 0.9684981684981685,
+        "f1": 0.2905740609496811,
+        "roc_auc": 0.7625847277512261,
+        "f1_fold_std": 0.05812293269122135,
+        "f1_fold_mean": 0.2835578108608298
+      }
+    }
+  },
+  "knee_tremor": {
+    "symptom": "knee_tremor",
+    "cv": "GroupKFold by participant_id (n_splits<= 5)",
+    "threshold": 0.5,
+    "vs_control": {
+      "window": {
+        "n": 1886,
+        "n_pos": 978,
+        "n_neg": 908,
+        "tp": 742,
+        "fp": 241,
+        "tn": 667,
+        "fn": 236,
+        "accuracy": 0.7470837751855779,
+        "balanced_accuracy": 0.746636352170662,
+        "precision": 0.7548321464903357,
+        "recall": 0.7586912065439673,
+        "specificity": 0.7345814977973568,
+        "f1": 0.7567567567567568,
+        "roc_auc": 0.8294077637541328,
+        "f1_fold_std": 0.0585325887710878,
+        "f1_fold_mean": 0.7561769141228549
+      }
+    },
+    "vs_everything": {
+      "window": {
+        "n": 7816,
+        "n_pos": 978,
+        "n_neg": 6838,
+        "tp": 281,
+        "fp": 227,
+        "tn": 6611,
+        "fn": 697,
+        "accuracy": 0.8817809621289662,
+        "balanced_accuracy": 0.6270621111065255,
+        "precision": 0.5531496062992126,
+        "recall": 0.28732106339468305,
+        "specificity": 0.966803158818368,
+        "f1": 0.3781965006729475,
+        "roc_auc": 0.7444390812558953,
+        "f1_fold_std": 0.06607586221582631,
+        "f1_fold_mean": 0.37587019343136097
+      }
+    }
+  }
+}

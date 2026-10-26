@@ -1,0 +1,6 @@
+# Python 3.11. Keep the saved-classifier dependencies aligned with training.
+-r requirements.txt
+numpy==2.4.6
+mediapipe==0.10.33
+opencv-contrib-python==4.13.0.92
+PySide6==6.10.1

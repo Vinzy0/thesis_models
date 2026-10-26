@@ -165,13 +165,23 @@ def _signal_stats(G):
     return out
 
 
-def clip_window_features(t, S, B, M, F):
+def clip_window_features(t, S, B, M, F, *, window_starts=None):
     """One clip. t: seconds from clip start (strictly increasing). S: signals [N, nS],
     B: blendshapes [N, nB], M: face_matrix [N, nM], F: flags [N, 4].
-    Returns (win_starts, features [W, n_feat]) or (None, None) if the clip is too short."""
+    Returns (win_starts, features [W, n_feat]) or (None, None) if the clip is too short.
+    Explicit window_starts reuse the same calculations for complete live windows,
+    without the offline clip's first/last-second trim.
+    """
     trim, win, step, fs = WINDOW["trim_s"], WINDOW["win_s"], WINDOW["step_s"], WINDOW["fs"]
     first, last = t[0] + trim, t[-1] - trim
-    starts = np.arange(first, last - win + 1e-9, step)
+    if window_starts is None:
+        starts = np.arange(first, last - win + 1e-9, step)
+    else:
+        starts = np.asarray(window_starts, dtype=float)
+        if starts.ndim != 1 or not np.isfinite(starts).all():
+            raise ValueError("window_starts must be a finite one-dimensional sequence")
+        if len(starts) and (starts.min() < t[0] - 1e-9 or starts.max() + win > t[-1] + 1e-9):
+            raise ValueError("Live windows must be fully covered by input timestamps")
     if len(starts) == 0:
         return None, None
 

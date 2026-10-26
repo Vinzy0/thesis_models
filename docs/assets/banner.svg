@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-labelledby="title desc">
+  <title id="title">Your models. In motion.</title>
+  <desc id="desc">Symptom Lab pairs a webcam with seven independent symptom detectors. The bars are a decorative illustration, not predictions.</desc>
+  <rect width="1280" height="360" rx="24" fill="#111e2e"/>
+  <rect x=".5" y=".5" width="1279" height="359" rx="23.5" fill="none" stroke="#2b3c51"/>
+  <g font-family="Segoe UI,Arial,sans-serif">
+    <text x="58" y="122" fill="#ffffff" font-size="65" font-weight="700" letter-spacing="-2">Your models.</text>
+    <text x="58" y="192" fill="#a9c5ff" font-size="65" font-weight="700" letter-spacing="-2">In motion.</text>
+    <text x="61" y="243" fill="#d5dfec" font-size="22">Live webcam testing, one symptom at a time.</text>
+    <path d="M61 273H650" stroke="#33475f"/>
+    <text x="61" y="309" fill="#aebfd4" font-size="17">7 symptoms</text>
+    <circle cx="184" cy="303" r="2" fill="#7294c7"/>
+    <text x="206" y="309" fill="#aebfd4" font-size="17">14 saved models</text>
+    <circle cx="368" cy="303" r="2" fill="#7294c7"/>
+    <text x="390" y="309" fill="#aebfd4" font-size="17">Inference on your computer</text>
+    <g transform="translate(754 43)">
+      <rect width="466" height="274" rx="16" fill="#1b2c42"/>
+      <text x="28" y="39" fill="#d5dfec" font-size="15">Seven independent scores</text>
+      <g stroke-linecap="round" stroke-width="9">
+        <path d="M32 69H431M32 96H431M32 123H431M32 150H431M32 177H431M32 204H431M32 231H431" stroke="#2e435d"/>
+        <path d="M32 69H328" stroke="#8eb7ff"/>
+        <path d="M32 96H162" stroke="#8eb7ff"/>
+        <path d="M32 123H220" stroke="#8eb7ff"/>
+        <path d="M32 150H369" stroke="#e9c27b"/>
+        <path d="M32 177H275" stroke="#8eb7ff"/>
+        <path d="M32 204H125" stroke="#8eb7ff"/>
+        <path d="M32 231H397" stroke="#e9c27b"/>
+      </g>
+      <path d="M232 58V80M232 85V107M232 112V134M232 139V161M232 166V188M232 193V215M232 220V242" stroke="#e2eaf5" stroke-width="2"/>
+    </g>
+  </g>
+</svg>

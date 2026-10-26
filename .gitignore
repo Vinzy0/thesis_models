@@ -1,6 +1,29 @@
-*
-!*/
-!*.py
-!README.md
-!requirements.txt
-!.gitignore
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Secrets and local machine files
+.env
+.env.*
+*.lnk
+*.log
+*.part
+
+# Research data, generated reports, and captured sessions stay local.
+*.parquet
+*.csv
+*.csv.gz
+results/
+screenshots/
+tracking_assets/
+_test/
+
+# Local planning and design-tool state
+.impeccable/
+APP_PLAN.md
+PRODUCT.md
+DESIGN.md
